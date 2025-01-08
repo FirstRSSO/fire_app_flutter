@@ -183,8 +183,10 @@ class _ControllTabBarViewState extends State<_ControllTabBarView> {
             ),
           ],
         ),
-        const Center(
-          child: Text("It's rainy here"),
+        Container(
+          child: Center(
+            child: Image.asset('assets/icons/map.png'),
+          ),
         ),
         const Center(
           child: Text("It's rainy here"),
